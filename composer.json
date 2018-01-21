@@ -1,0 +1,38 @@
+{
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/dicephp/cache"
+    }
+  ],
+  "name": "dicephp/doc-site-builder",
+  "description": "Documentation Site Builder allows you to automatically build the documentation site using documents in repositories in your organisation",
+  "keywords": [
+    "php",
+    "documentation",
+    "dice"
+  ],
+  "homepage": "https://dicephp.github.io/",
+  "type": "dicephp-doc-site-builder",
+  "license": "MIT",
+  "support": {
+    "issues": "https://github.com/dicephp/doc-site-builder/issues",
+    "forum": "https://stackoverflow.com/questions/tagged/dicephp",
+    "wiki": "https://github.com/dicephp/doc-site-builder/wiki",
+    "source": "https://github.com/dicephp/doc-site-builder"
+  },
+  "require": {
+    "php": ">=7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Dice\\DSBuilder\\": "src/"
+    }
+  },
+  "extra": {
+    "writePermission": [
+      "output",
+      "tmp"
+    ]
+  }
+}
