@@ -1,0 +1,5 @@
+<?php
+
+$repoList = [
+    'dicephp/types'
+];
